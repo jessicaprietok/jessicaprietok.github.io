@@ -1,0 +1,57 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  text-align: center;
+  background-color: gainsboro;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 1100px;
+}
+
+h1 {
+  letter-spacing: 5px;
+  font-size: 3rem;
+}
+
+h2 {
+  text-align: initial;
+  background-color: gray;
+  color: WHITE;
+  text-indent: 0.5rem;
+  font-size: 1.8rem;
+}
+
+p {
+  text-align: justify;
+  text-indent: 1.5em;
+}
+
+em {
+  color: red;
+}
+
+strong {
+  background-color: white;
+}
+
+img {
+  float: left;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+
+.content-box {
+  padding: 0px 25px 0px 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.child-box {
+  width: 880px;
+}
